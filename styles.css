@@ -162,3 +162,43 @@ footer{
   flex: 1;
 }
 */
+
+@media(max-width: 950px){
+  #newsletter button{
+    display: block;
+    width: 100%;
+  }
+
+  #newletter form input[type="email"]{
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}
+
+
+@media(max-width: 768px){
+  header #branding, header nav, header nav li, 
+  #newsletter h1, #newsletter form, #boxes .box{
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  header{
+    padding-bottom: 20px;
+  }
+
+  #showcase{
+    margin-top: 40px;
+  }
+
+  #newsletter button{
+    display: block;
+    width: 100%;
+  }
+
+  #newletter form input[type="email"]{
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}
